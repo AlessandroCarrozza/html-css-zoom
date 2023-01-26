@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+/* -------- inizio header ------- */
+
+header{
+    height: 80px;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.header-btn{
+    width: 15%;
+    height: 100%;
+    text-align: right;
+    padding: 15px 10px 0 0;
+    background-color: black;
+}
+
+.header-btn a{
+    color: white;
+    text-decoration: none;
+    background-color: #4c4c4c;
+    border-radius: 7px;
+    padding: 7px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+/* ---------- fine header ---------- */
+
+
+
+/* ---------- inizio main ---------- */
+

@@ -60,7 +60,7 @@ header{
 /* ---------- inizio main ---------- */
 
 main{
-    padding-top: 85px;
+    padding: 85px 0;
 }
 
 main .users{

@@ -16,6 +16,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: black;
+    position: relative;
 }
 
 
@@ -26,6 +27,11 @@ header{
     height: 80px;
     justify-content: flex-end;
     background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0; 
 }
 
 .header-btn{
@@ -52,3 +58,48 @@ header{
 
 /* ---------- inizio main ---------- */
 
+main{
+    padding-top: 85px;
+}
+
+main .users{
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+main .users .user-cam{
+    width: 242px;
+    height: 142px;
+    margin-top: 5px;
+    background-image: url("../img/cat-zoom.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+main .user-cam .user-name{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ---------- fine main -------- */
+
+
+
+
+/* --------- inizio footer -------- */
+
+footer{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+}

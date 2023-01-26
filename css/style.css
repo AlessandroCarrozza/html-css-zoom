@@ -14,7 +14,8 @@ body{
 
 .container{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    /* height: 100vh; */
     background-color: black;
     position: relative;
 }
@@ -101,5 +102,101 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .audio-video{
+    width: 10%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+footer .various.actions{
+    width: 35%;
+    height: 100%;
+    background-color: #222222;
+}
+
+footer .end-action{
+    width: 9%;
+    height: 100%;
+    background-color: #282727;
+    position: relative;
+}
+
+footer .icon-text, footer .stop-video{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .audio{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    position: relative;
+}
+
+footer .video{
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    position: relative;
+}
+
+footer i{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+footer .audio .angle i, footer .video .angle i{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 15px;
+}
+
+footer .icons{
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .various.actions{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer .various.actions .angle i{
+    font-size: 15px;
+}
+
+footer .end-action > span{
+    font-weight: 600;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer .end-action .layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
 }
